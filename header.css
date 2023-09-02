@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    object-fit: cover;
 }
   
 .header::before {
@@ -28,6 +29,7 @@
     width: 100%;
     z-index: -1;
     background: rgba(25, 35, 23, 0.4);
+    object-fit: cover;
 }
 
 .header-button {
@@ -86,6 +88,9 @@
 /* small mobile devices (414px and down) */
 @media only screen and (max-width: 414px) {
 
+    /* .header {
+        height: ;
+    } */
     .header-image img {
         width: 100%;
         height: auto;

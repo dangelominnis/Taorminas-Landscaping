@@ -16,17 +16,17 @@
     the content's height is greater than the image's height */
     background-attachment: fixed;
 
-    height: 100vh;
+    height: 80vh;
     background-image: url(/img/landscape-house.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     /* padding-top: var(--bar-height); */
 
     /* box-sizing: border-box; */
 
-    /* position: relative; */
+    position: relative;
     z-index: 4;
     display: flex;
     flex-direction: column;

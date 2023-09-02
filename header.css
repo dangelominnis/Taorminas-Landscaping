@@ -88,9 +88,10 @@
 /* small mobile devices (414px and down) */
 @media only screen and (max-width: 414px) {
 
-    /* .header {
-        height: ;
-    } */
+    .header {
+        height: 50vh;
+    }
+    
     .header-image img {
         width: 100%;
         height: auto;

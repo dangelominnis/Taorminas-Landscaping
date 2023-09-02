@@ -16,7 +16,7 @@
     the content's height is greater than the image's height */
     background-attachment: fixed;
 
-    height: 80vh;
+    height: 50vh;
     background-image: url(/img/landscape-house.jpg);
     background-position: center center;
     background-repeat: no-repeat;

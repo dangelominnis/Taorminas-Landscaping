@@ -21,7 +21,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
     /* background-size: contain; */
     /* padding-top: var(--bar-height); */
 

@@ -276,23 +276,28 @@ body {
   the content's height is greater than the image's height */
   /* background-attachment: fixed; */
 
-  height: 80vh;
-  background-image: url(/img/landscape-house.jpg);
-  background-position: center center;
+  /* background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   /* background-size: contain; */
   /* padding-top: var(--bar-height); */
-
+  
   /* box-sizing: border-box; */
-
-  position: relative;
-  z-index: 4;
-  display: flex;
+  
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   /* object-fit: cover; */
+  
+  height: 80vh;
+  background-image: url(/img/landscape-yard.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-size: auto 100%;
+  background-position: center; */
+  position: relative;
+  z-index: 4;
 }
 
 .banner1::before {
@@ -397,6 +402,12 @@ body {
     /* detail */
     .detail-text {
       width: 50%;
+    }
+
+    /* banner1 */
+    .banner1 {
+      background-size: auto 100%;
+      background-position: center;
     }
 
 }

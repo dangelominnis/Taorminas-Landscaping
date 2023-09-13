@@ -18,9 +18,10 @@
 
     height: 100vh;
     background-image: url(/img/landscape-house.jpg);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: auto 100%;
     /* background-size: contain; */
     /* padding-top: var(--bar-height); */
 

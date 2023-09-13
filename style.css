@@ -262,6 +262,9 @@ body {
 
 /* banner1 */
 .banner1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   /* Location of the image */
   /* background-image: url(images/background-photo.jpg); */
@@ -290,17 +293,17 @@ body {
   align-items: center; */
   /* object-fit: cover; */
   
-  height: 80vh;
+  /* height: 80vh;
   background-image: url(/img/landscape-yard.jpg);
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   /* background-size: auto 100%;
   background-position: center; */
-  position: relative;
-  z-index: 4;
+  /* position: relative;
+  z-index: 4; */
 }
 
-.banner1::before {
+/* .banner1::before {
   content: '';
   position: absolute;
   top: 0;
@@ -308,7 +311,12 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  /* background: rgba(25, 35, 23, 0.4); */
+  background: rgba(25, 35, 23, 0.4);
+} */
+
+.banner1 img {
+  width: 100%;
+  height: auto;
 }
 
 /* banner */
@@ -405,10 +413,10 @@ body {
     }
 
     /* banner1 */
-    .banner1 {
+    /* .banner1 {
       background-size: auto 100%;
       background-position: center;
-    }
+    } */
 
 }
 
